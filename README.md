@@ -1,24 +1,28 @@
-# task6-strong-password-analysis
-Password strength evaluation
- Cyber Security Internship - Task 6
+# Task6-Password Strength Evaluation  
+Understanding and testing secure password practices
 
-This task focuses on understanding what makes a password secure. Multiple passwords were created and tested using online strength checkers. The results were analyzed, and best practices were documented.
+ Objective  
+Create multiple passwords with varying complexity and evaluate their strength using online tools. Learn how password structure impacts security and analyze common attack methods.
 
-Objectives:
-- Create passwords with varying complexity
-- Evaluate them using tools like:
-  - [Password Meter](https://www.passwordmeter.com)
-- Research common password attack methods
-- Learn best practices for strong password creation
+ Tools Used  
+- PasswordMeter.com    
+- Google (for research on attack methods)
 
- Contents:
-- `report.md` – Detailed evaluation and research findings
-- `/screenshots/` – Password test result screenshots
+ Steps Performed  
+1. Created multiple passwords with different lengths, symbols, and complexity.  
+2. Tested each password using online strength checkers.  
+3. Noted the crack time and feedback from tools.  
+4. Compared weak vs strong password characteristics.  
+5. Researched brute force and dictionary attacks.  
+6. Documented findings and best practices.
 
- Key Concepts:
-- Password strength
-- Brute force and dictionary attacks
-- Authentication and password hygiene
-- 
+ Files Included  
+- `report.md`: Summary of evaluation and research  
+- `screenshots/`: Screenshots of password tests  
+- `README.md`: This file  
 
-Author: Suhani Pandey
+ Submission  
+This repository is for the Cyber Security Internship - Task 6.
+
+ Author: Suhani Pandey
+
