@@ -1,0 +1,78 @@
+
+# Task 6: Password Strength Evaluation and Best Practices
+
+ Objective  
+Understand what makes a password strong, test multiple passwords using an online strength tool (PasswordMeter), analyze the feedback, and learn common password attacks.
+
+
+
+ Tools Used  
+- [PasswordMeter.com](https://www.passwordmeter.com)  
+- Google Search (for attack research)  
+
+
+
+ Password Strength Evaluation  
+
+| Password           | Strength Rating | Estimated Crack Time     | Key Feedback                    |
+|--------------------|-----------------|-------------------------|--------------------------------|
+| password123        | Weak            | < 1 second              | Common password, lacks complexity |
+| Qwerty@2025        | Medium          | ~5 hours                | Predictable pattern             |
+| M@yAnK#786         | Strong          | 12 years (est.)         | Good use of symbols and numbers |
+| S@huNiPandey$98    | Strong          | 2 million years (est.)  | Long and complex                |
+| %L0ckM3D0wn_!2024  | Very Strong     | 24 million years (est.) | Excellent complexity and length |
+
+
+
+ Screenshots  
+
+> ![password123 result](screenshots/password123.png)  
+> ![Qwerty@2025 result](screenshots/qwerty2025.png)  
+> ![M@yAnK#786 result](screenshots/mayank786.png)  
+> ![S@huNiPandey$98 result](screenshots/suhani98.png)  
+> ![%L0ckM3D0wn_!2024 result](screenshots/lockdown2024.png)  
+
+Note: All screenshots were taken from PasswordMeter.com and saved in the `screenshots/` folder._
+
+
+ Best Practices Learned  
+
+ Use 12+ characters minimum  
+ Include uppercase, lowercase, numbers, and special characters  
+ Avoid real words, names, or **common sequences 
+ Use random strings or meaningful passphrases 
+ Longer and more unpredictable passwords increase security drastically  
+
+
+
+ Common Password Attack Techniques  
+
+ 1. Brute Force Attack  
+Tries all possible combinations. Strong, long, and random passwords make brute-force impractical.
+
+ 2. Dictionary Attack  
+Uses common passwords or words. Avoid using real dictionary words or names to mitigate.
+
+ 3. Phishing  
+Tricks users into revealing passwords. Defeated by user awareness, safe browsing habits, and 2FA (Two-Factor Authentication).
+
+
+Why Password Complexity Matters  
+
+Strong passwords:  
+- Are exponentially harder to guess  
+- Resist automated cracking tools  
+- Extend the time needed for brute-force attacks from seconds to millions of years  
+
+
+
+ Conclusion  
+
+Password strength is a key part of cybersecurity. This task demonstrated how increasing complexity and randomness significantly improve password security. Simple changes—like increasing length and adding special characters—make a huge difference in protecting accounts from attacks.
+
+---
+
+> Repository Contains:  
+> This `report.md` file  
+> Password test screenshots in `/screenshots/` folder  
+> `README.md` describing the task  
